@@ -1,0 +1,45 @@
+
+Entry_list = ("Bharath,Anu,Madhu,Tiru")
+Gate_Entry = input("Enter your name:")
+if 'Bharath' in Entry_list:
+    print("Welcome to the Home Bharath and Tiru")
+elif 'Anu' in Entry_list:
+    print("Welcome to the home Anu and Madhu")
+else:
+    print("your not allowed")
+'''
+'''
+height= input("Enter Your height in feets:")
+x=float(height)
+if x==6:
+    print("valid for entry")
+elif x<6:
+    print("valid for this")
+else:
+    print("not valid")
+failed_students = "Ashok"
+Student_name = input("Enter your name to check Results:")
+if Student_name in failed_students:
+    print("sorry you have failed the exam.")
+elif "Bharath" not in failed_students:
+    print("Sorry next time better luck.")
+else:
+    print("Congratulations! you passed.")
+'''
+'''
+name = input("Enter your name:")
+percentage = input("enter your percentage:")
+age = input("enter your age:")
+
+if name and int(percentage)>=70 and int(age)>=20:
+    print("satisfied all conditions:")
+else:
+    print("please check the age is grter than 20 and percentage shouyld be 70above")
+
+ '''
+
+
+
+
+
+
